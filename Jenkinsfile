@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('shell command ') {
+      steps {
+        sh 'sudo cp -R /home/vivek'
+      }
+    }
+
   }
 }
